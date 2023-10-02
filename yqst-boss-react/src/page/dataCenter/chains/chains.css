@@ -1,0 +1,67 @@
+.content {
+  background: white;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  margin: 0 10px;
+}
+.content .left-layout {
+  flex: 1;
+  margin-right: 10px;
+}
+.content .left-layout label {
+  font-size: 15px;
+}
+.content .right-layout {
+  flex: 3;
+  padding-left: 10px;
+  border-left: 1px #ced6e0 solid;
+}
+.content .right-layout label {
+  font-size: 15px;
+}
+.content .right-layout h2 div {
+  float: right;
+  font-size: 13px;
+  color: #4481EB;
+  cursor: pointer;
+  font-weight: normal;
+}
+.content .right-layout .mtitle {
+  color: #a4b0be;
+  user-select: none;
+}
+.content .right-layout .mtitle div {
+  float: right;
+}
+.content .right-layout .mtitle div span {
+  margin-right: 10px;
+}
+.content .right-layout .mtitle div span:last-child {
+  margin-right: 0;
+}
+.content .right-layout .mtitle div span mini-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+.content .right-layout .mtitle div span line-icon {
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+.modal-layout .result-layout {
+  padding: 15px 0 0 0;
+}
+.modal-layout .result-layout div {
+  padding: 5px 0;
+}
+.modal-layout .result-layout div:hover {
+  background: #f1f2f6;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=chains.css.map */

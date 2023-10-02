@@ -1,0 +1,10 @@
+/**
+ * Created by ljy on 2017/3/27.
+ */
+let LoginActionType = {
+    CHANGE_CODE_TEXT_ACTION: 'CHANGE_CODE_TEXT_ACTION',
+    SETCODESN_ACTION: 'SETCODESN_ACTION',
+    CHANGE_LOGINMODE_ACTION: 'CHANGE_LOGINMODE_ACTION',
+    RESET_ACTION: 'RESET_ACTION',
+};
+export default LoginActionType;

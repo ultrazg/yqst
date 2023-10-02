@@ -1,0 +1,47 @@
+.aloneCrad{
+  position: relative;
+  .aloneCrad_showBtn{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+    line-height: 48px;
+    width: 50px;
+    height: 48px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  .showName::after{
+    content: '∧';
+  }
+  .hideName::after{
+    content: '∨';
+  }
+  .aloneCrad_showBtn:hover{
+    background: #ccc;
+    //color: #fff;
+  }
+  .ant-card-head{
+    padding: 0 50px 0 10px!important;
+    background: #f4f4f4;
+  }
+  .ant-card-body{
+    padding: 10px !important;
+  }
+  .ant-row{
+    margin: 0 !important;
+  }
+  .ant-card-head-title{
+    font-weight: 600;
+  }
+}
+.hideContent{
+  max-height: 0px;
+  overflow: hidden;
+  transition:all 0.3s ease;
+}
+.showContent{
+  max-height: 9999px;
+  overflow: hidden;
+  transition:all 1.5s ease-in-out;
+}

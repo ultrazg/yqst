@@ -1,0 +1,17 @@
+.g2-tooltip{
+    /*width: 125px!important;*/
+    /*height: 56px!important;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.g2-tooltip-title{
+    margin-top: 18px!important;
+    margin-bottom: 0!important;
+}
+
+.g2-tooltip .g2-tooltip-value{
+    margin-left: 5px!important;
+    float: none!important;
+}

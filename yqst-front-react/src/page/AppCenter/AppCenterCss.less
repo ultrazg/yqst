@@ -1,0 +1,72 @@
+@import "../AddressBook/base";
+
+.applyIndex, .applyBazaar, .applyManage {
+  .applyS {
+    &:hover {
+      border-color: @primary-color !important;
+    }
+  }
+}
+
+.line3-tuck {
+  .textOverflowMulti();
+  margin: 0;
+  padding: 0 5px 0 5px;
+  text-indent: 2em;
+
+  &::before {
+    right: 4px;
+  }
+
+  &::after {
+    right: 6px;
+  }
+}
+
+.ant-tree li ul {
+  padding: 0 0 0 10px;
+}
+
+.appManageNewUI {
+  width: 1116px;
+  min-height: 648px;
+  margin: 24px auto;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  .itemLi{
+    li {
+      padding-left: 24px;
+      line-height: 40px;
+      cursor: pointer;
+
+      &:hover {
+        background: @shadow-background-color;
+        color: #fff;
+      }
+    }
+
+    .onLi {
+      background: @shadow-background-color;
+      color: #fff;
+    }
+  }
+
+  .content-left {
+    width: 261px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 6px;
+  }
+
+  .content-right {
+    width: 831px;
+    margin-left: 24px;
+    display: inline-block;
+    background: #fff;
+    vertical-align: top;
+    padding: 0 42px 50px 42px;
+    min-height: 200px;
+    border-radius: 6px;
+  }
+}

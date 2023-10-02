@@ -1,0 +1,32 @@
+.label {
+  height: 32px;
+  width: 120px;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: right;
+}
+
+.formitem {
+  margin-bottom: 30px !important;
+}
+
+.smalltitle { 
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  background: rgba(43, 52, 65, 0.05);
+  height: 42px;
+  padding-left: 36px;
+  padding-top: 10px; 
+  margin-bottom: 24px 
+}
+
+.selector {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.selector:hover {
+  background: rgba(43, 52, 65, 0.25);
+}

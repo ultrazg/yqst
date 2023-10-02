@@ -1,0 +1,9 @@
+使用事例
+
+import InputGroups from '../../../../../baseview/inputGroups/InputGroups'
+<InputGroups
+    length={4}
+    callback={(val) => {
+        console.log('99999: ', val);
+    }}
+/>

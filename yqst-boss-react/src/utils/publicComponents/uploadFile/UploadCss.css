@@ -1,0 +1,11 @@
+.uploadImgCssY{
+    margin-left: 5px;
+    display: inline-block;
+}
+.uploadImgCssY .ant-upload-select-picture-card{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    background: none;
+    border: none;
+}

@@ -1,0 +1,20 @@
+说明：
+
+<IsPower
+    key={'ERP_ROLE_ENTER'}  // 同一组件内多次使用时运用key值表明唯一性
+    permissionsName={'ERP_ROLE_ENTER'}  // 要检测的权限字符串
+    errText={'抱歉，您没有权限查看，请联系管理员！'}  // 没有权限的提示语
+
+    isShowRes={false}  // 是否需要展示结果，默认（true）需要展示
+    isShowWait={false}  // 是否需要展示等待的过程，默认（true）需要展示
+
+    style={{paddingTop: '240px'}}  // 最外层的样式，可覆盖原有的样式
+    styleImg={{paddingTop: '240px'}}  // 图片的样式，可覆盖原有的样式
+    styleText={{fontSize: '16px'}}  // 文本的样式，可覆盖原有的样式
+
+    styleWait={{fontSize: '16px'}}  // 网络等待时外层的样式，可覆盖原有的样式
+    styleWaitImg={{fontSize: '16px'}}  // 网络等待时图片的样式，可覆盖原有的样式
+    styleWaitText={{fontSize: '16px'}}  // 网络等待时文案的样式，可覆盖原有的样式
+>
+    {this.makeRoleRightView()}
+</IsPower>

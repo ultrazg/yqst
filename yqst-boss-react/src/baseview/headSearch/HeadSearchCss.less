@@ -1,0 +1,68 @@
+.searchHea{
+  //overflow: hidden;
+  width: 100%;
+  padding-top: 0px;
+  margin: 10px 0;
+  //max-height: 90px;
+  transition: max-height 0.5s;
+  .searchHeaForm{
+    //overflow: hidden;
+    //padding-right: 150px;
+    //position: relative;
+    display: flex;
+
+    .searchInput{
+      //width: 100%;
+      //max-height: 250px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .searchBtn{
+      //position: absolute;
+      //right: 0px;
+      //top: 0px;
+      width: 150px;
+      z-index: 2;
+      text-align: center;
+      height: 60px;
+      //padding-top: 5px;
+    }
+
+    .gj{
+      padding-right: 6px;
+      text-align: right;
+      overflow: hidden;
+      a{
+        padding: 5px;
+        display: inline-block;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+      i{
+        margin-left: 5px;
+      }
+    }
+    .ant-form-item{
+      margin-bottom: 18px;
+    }
+    .ant-card-body{
+      padding: 0 !important;
+    }
+    .ant-card-bordered{
+      margin: 0 !important;
+      padding: 10px 0 0 0 !important;
+    }
+  }
+
+  .ant-calendar{
+    width: 100%;
+  }
+}
+.searchShow{
+  max-height: 300px;
+  transition: max-height 0.5s;
+}

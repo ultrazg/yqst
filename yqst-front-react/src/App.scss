@@ -1,0 +1,12 @@
+@for $i from 1 to 5 {
+  .text-elli#{$i} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $i;
+    /* autoprefixer: off*/
+    -webkit-box-orient: vertical;
+    /*防止英文溢出*/
+    word-break: break-all;
+  }
+}

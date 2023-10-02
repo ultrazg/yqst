@@ -1,0 +1,20 @@
+.center :global .react-pdf__Page__canvas {
+  margin: 0 auto 10px auto;
+}
+.center :global .react-pdf__message {
+  text-align: center;
+}
+.iconWrapper {
+  margin: 0 auto;
+}
+.iconWrapper .tar {
+  text-align: center;
+  margin: 0 10px;
+}
+.iconWrapper .tal {
+  text-align: left;
+}
+.iconWrapper .iconStyle {
+  margin: 5px;
+}
+/*# sourceMappingURL=index.css.map */

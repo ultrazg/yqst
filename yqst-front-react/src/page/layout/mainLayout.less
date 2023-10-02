@@ -1,0 +1,92 @@
+.homeHeader {
+  height: 64px;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 2px 4px 0 rgba(43,52,65,0.15);
+  //border-radius: 6px;
+  padding: 0px;
+  .homeHeader_com{
+    width: 1116px;
+    margin: auto;
+    background:rgba(255,255,255,1);
+    ul{
+      li{
+        font-size: 16px;
+      }
+    }
+    .topL{
+      img{
+        width: 123px;
+      }
+    }
+    .topM{
+      text-align: center;
+    }
+    .topR{
+      text-align: right;
+      >span{
+        display: inline-block;
+        height: 100%;
+        padding-right: 10px;
+        img{
+          width: 22px;
+          cursor: pointer;
+        }
+      }
+      .per{
+        max-width: 150px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        float: right;
+        color:rgba(43,52,65,0.65);
+        font-size: 16px;
+        img{
+          width: 40px;
+          height: 40px;
+          border-radius:6px;
+          margin-right: 10px;
+        }
+        //&:hover{
+        //  background: #EDF6FF;
+        //}
+      }
+    }
+  }
+}
+//.homeContent{
+  //width: 1116px;
+  //margin: 24px auto;
+  //margin-bottom: 24px;
+//}
+.Dropdown_mes{
+  .icon{
+    position: absolute;
+    top: -15px;
+    right: 35px;
+  }
+  .icon:before,.icon:after{
+    position: absolute;
+    content: '';
+    border-top: 10px transparent dashed;
+    border-left: 10px transparent dashed;
+    border-right: 10px transparent dashed;
+    border-bottom: 10px #fff solid;
+  }
+  .icon:before{
+    border-bottom: 20px #fff solid;
+  }
+  .icon:after{
+    top: 1px; /*覆盖并错开1px*/
+    border-bottom: 20px #fff solid;
+  }
+  .list_li{
+    cursor: pointer;
+    &:hover{
+      background: #EDF6FF;
+    }
+  }
+  .bottom_btn:hover{
+    background: #EDF6FF;
+  }
+}

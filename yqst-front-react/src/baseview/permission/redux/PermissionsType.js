@@ -1,0 +1,11 @@
+/**
+ * Created by ljy on 2018/5/23
+ */
+
+let SET_PERMISSIONS = 'SET_PERMISSIONS';
+let CLEAR_PERMISSIONS = 'CLEAR_PERMISSIONS';
+
+export {
+    SET_PERMISSIONS,
+    CLEAR_PERMISSIONS
+};

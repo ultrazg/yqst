@@ -1,0 +1,4 @@
+/*修改antd Modal的默认样式*/
+.ESServiceRuleDetail-modal .ant-modal-body{
+    padding: 0!important;
+}

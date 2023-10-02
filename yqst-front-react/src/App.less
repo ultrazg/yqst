@@ -1,0 +1,395 @@
+/**
+ * Created by ljy on 2018/11/15 .anticon .anticon-eye-o)
+ */
+@import '~antd/dist/antd.less';
+
+.ant-form-item-control-input-content {
+  .ant-form-item {
+    margin-bottom: 0px !important;
+  }
+}
+
+.ant-form-item {
+  margin-bottom: 10px !important;
+}
+
+
+.ant-table-fixed {
+  table-layout: fixed;
+}
+
+.ant-table-tbody > tr > td {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.CustomAntUpload {
+  .ant-upload-list-item-actions {
+    display: flex;
+  }
+
+  .anticon-eye-o {
+    width: 38px !important;
+    height: 30px !important;
+    font-size: 38px !important;
+  }
+
+  .anticon-delete {
+    width: 28px !important;
+    height: 28px !important;
+    margin-top: 4px !important;
+    font-size: 28px !important;
+  }
+}
+
+.ant-select-dropdown-menu-item {
+  white-space: normal;
+}
+
+.CustomAntPanelTitle {
+  .ant-collapse-header {
+    cursor: default !important;
+  }
+}
+
+/*--------------头部导航栏样式-----------------*/
+.TopMenu {
+  .ant-menu-item {
+    border-bottom: 3px solid transparent !important;
+  }
+
+  .ant-menu-item:hover, .ant-menu-item-selected {
+    border-bottom: 3px solid @primary-color !important;
+  }
+}
+
+/*---------重置modal弹出窗的样式---------*/
+.Modal {
+  .ant-modal-header {
+    background: #F1F1FA;
+    text-align: center;
+    padding: 16px 24px;
+  }
+
+  .ant-modal-title {
+    font-size: 16px;
+  }
+
+  .ant-modal-close-icon {
+    font-size: 16px;
+    color: #2B3441;
+  }
+
+  .Modal_Form {
+    font-size: 14px;
+
+    label, input {
+      font-size: 14px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 16px;
+    }
+
+    .ant-form-item-label {
+      text-align: left;
+    }
+
+    .ant-form-item-required::before {
+      content: '';
+    }
+
+    .ant-cascader-picker {
+      font-size: 14px;
+    }
+  }
+}
+
+/*---------重置Form表单的样式---------*/
+.Form {
+  div {
+    label, input, button {
+      font-size: 14px;
+    }
+  }
+}
+
+/*---------重置Dropdown下拉菜单的样式---------*/
+.Dropdown, .ant-dropdown-menu-submenu {
+  .ant-dropdown-menu {
+    padding: 8px 0;
+  }
+
+  .ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .ant-dropdown-menu-submenu-title .ant-dropdown-menu-submenu-arrow {
+    right: 0;
+
+    > .anticon:first-child {
+      margin-right: 4px;
+    }
+  }
+}
+
+/*---------重置 Tabs 标签页的样式---------*/
+.Tabs {
+  .ant-tabs-nav {
+    .ant-tabs-tab {
+      font-size: 16px;
+    }
+  }
+}
+
+/*---------重置 Switch 开关的样式---------*/
+.Switch {
+  width: 48px;
+  height: 26px !important;
+
+  .ant-switch-handle {
+    top: 4px !important;
+  }
+
+  &:after {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
+
+/*---------重置 Table 列表的样式---------*/
+.Table {
+  .ant-table {
+    font-size: 14px;
+  }
+
+  .ant-table-thead > tr > th {
+    background: rgba(241, 241, 250, 1);
+  }
+}
+
+.Table_thNoBacCol {
+  .ant-table {
+    font-size: 14px;
+  }
+
+  .ant-table-thead > tr > th {
+    background: #fff;
+  }
+}
+
+/*---------重置 Radio 单选按钮的样式---------*/
+.Radio {
+  .ant-radio-button-wrapper {
+    background: #E6E9EE;
+  }
+}
+
+/*---------重置 Tree 的样式---------*/
+.Tree {
+  font-size: 14px !important;
+
+  li {
+    &:first-child, &:last-child {
+      padding: 0px !important;
+    }
+
+    .ant-tree-node-content-wrapper, span.ant-tree-iconEle, span.ant-tree-switcher, span.ant-tree-node-content-wrapper::before {
+      height: 40px !important;
+      line-height: 40px !important;
+    }
+
+    span.ant-tree-switcher.ant-tree-switcher_close, span.ant-tree-switcher.ant-tree-switcher_open {
+      .ant-tree-switcher-icon {
+        font-size: 14px !important;
+        color: #2B3441;
+      }
+
+      font-size: 14px !important;
+      color: #2B3441;
+    }
+
+    span.ant-tree-node-content-wrapper:hover::before {
+      background: @shadow-background-color !important;
+      color: #fff;
+    }
+
+    span.ant-tree-node-content-wrapper:hover, span.ant-tree-node-content-wrapper.ant-tree-node-selected {
+      color: #fff !important;
+    }
+  }
+
+  li.ant-tree-treenode-selected > span.ant-tree-node-content-wrapper::before {
+    background: @shadow-background-color !important;
+  }
+
+  li.ant-tree-treenode-selected > span.ant-tree-node-content-wrapper {
+    color: #fff;
+  }
+
+  div.ant-tree-treenode, div.ant-tree.ant-tree-directory, div.ant-tree-treenode-selected::before {
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .ant-tree-treenode:hover::before {
+    background: @shadow-background-color !important;
+  }
+
+  .ant-tree-treenode-selected:hover::before {
+    background: @shadow-background-color !important;
+  }
+
+  .ant-tree-treenode-selected::before {
+    background: @shadow-background-color !important;
+  }
+
+  .ant-tree-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ant-tree-node-content-wrapper:hover {
+    color: #ffffff !important;
+  }
+}
+
+/*---------重置 Collapse 手风琴的样式---------*/
+.Collapse {
+  border: 0px !important;
+
+  .ant-collapse-item {
+    border-bottom: 0px !important;
+
+    .ant-collapse-header {
+      background: #F1F1FA;
+      border-radius: 6px;
+      height: 48px;
+      //line-height: 48px;
+    }
+  }
+
+  .ant-collapse-content {
+    border-top: 0px !important;
+  }
+
+  .ant-collapse-arrow {
+    color: #2B3441;
+    width: 13px;
+    height: 8px;
+  }
+
+  .ant-collapse-content-box {
+    padding: 0px !important;
+  }
+}
+
+/*重置 Button 返回按钮的样式*/
+.Button_leftIcon {
+  //height: 26px !important;
+  //width: 60px !important;
+  //line-height: 26px !important;
+  font-size: 14px !important;
+  padding: 0 15px !important;
+  line-height: 1.4 !important;
+  .anticon + span{
+    margin-left: 2px !important;
+  }
+  //i {
+  //  //vertical-align: middle !important;
+  //  vertical-align: -2px;
+  //}
+
+  //span {
+  //  margin-left: 0px !important;
+  //}
+}
+
+.editor-wrapper {
+  border: 1px solid #ccc;
+}
+
+.bf-content {
+  min-height: 300px;
+  max-height: 350px;
+}
+
+.sw-treeSelect {
+  .ant-select-tree-title {
+    font-size: 14px;
+  }
+}
+
+.sw-searchInput {
+  &::-webkit-input-placeholder {
+    font-size: 14px;
+    color: rgba(43, 52, 65, 0.25) !important;
+  }
+
+  &:-moz-placeholder {
+    font-size: 14px;
+    color: rgba(43, 52, 65, 0.25) !important;
+  }
+
+  &:-ms-input-placeholder {
+    font-size: 14px;
+    color: rgba(43, 52, 65, 0.25) !important;
+  }
+}
+
+// 防止上传图片溢出
+.sw-heh-upload {
+  .ant-upload-list-item {
+    & > div {
+      height: 100%;
+    }
+  }
+}
+
+.sw-form-disable-color {
+  &[disabled] {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  input[disabled] {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+.dept-list {
+  .dept-list-li-active {
+    background: @shadow-background-color;
+  }
+
+  li {
+    height: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    padding-left: 12px;
+
+    &:hover {
+      background: @shadow-background-color;
+    }
+
+    img {
+      margin-right: 8px;
+    }
+  }
+}
+
+/*日期组件RangePicker*/
+.RangePicker {
+  .ant-calendar-picker-input {
+    height: 40px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .ant-calendar-range-picker-separator {
+    line-height: 30px;
+  }
+}

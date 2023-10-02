@@ -1,0 +1,28 @@
+.label {
+  height: 32px;
+  width: 120px;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: right;
+}
+
+/* 当表单内容为文字时 */
+.text {
+  height: 32px;
+  line-height: 32px;
+}
+
+.smalltitle { 
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  background: rgba(43, 52, 65, 0.05);
+  height: 42px;
+  padding-left: 36px;
+  padding-top: 10px; 
+  margin-bottom: 24px 
+}
+
+.formitem {
+  margin-bottom: 30px !important;
+}

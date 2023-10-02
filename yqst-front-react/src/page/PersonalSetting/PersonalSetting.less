@@ -1,0 +1,90 @@
+
+.perSetCss{
+  .leftMenu{
+    margin-top: 16px;
+    li{
+      padding-left: 24px;
+      line-height: 40px;
+      cursor: pointer;
+      &:hover{
+        background: @shadow-background-color;
+        color: #fff;
+      }
+    }
+    .onLi{
+      background: @shadow-background-color;
+      color: #fff;
+    }
+  }
+  .rightComtent{
+    .formCss{
+      font-size: 14px;
+      label, input{
+        font-size: 14px;
+      }
+      .ant-form-item-label{
+        text-align: left;
+        line-height: 20px;
+        margin-bottom: 8px;
+      }
+      .ant-form-item-required::before, label:after{
+        content: '';
+      }
+      .ant-cascader-picker{
+        font-size: 14px;
+      }
+      .ant-form-item-control{
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+.perInfCss_cas{
+  width: 356px;
+  font-size: 14px;
+  .ant-cascader-menu{
+    width: 33.33%;
+    li{
+      font-size: 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    li:hover{
+      background: #EDF6FF;
+    }
+  }
+  .ant-cascader-menu-item-active{
+    background: #EDF6FF;
+  }
+}
+
+.perReaNamCss{
+  .form{
+    font-size: 14px;
+    label, input, .ant-cascader-picker{
+      font-size: 14px;
+    }
+    .ant-form-item-control{
+      line-height: 32px;
+    }
+    .ant-form-item-label{
+      text-align: left;
+      line-height: 20px;
+      margin-bottom: 8px;
+    }
+    .ant-form-item{
+      padding-left: 30px;
+    }
+    .ant-form-explain{
+      padding-top: 4px;
+    }
+  }
+}
+
+.prn_DatePicker{
+  .ant-calendar{
+    width: 356px;
+  }
+}
